@@ -11,7 +11,7 @@
 }
 
 body{
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /*----Header----*/
 .header{
@@ -118,6 +118,7 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     display: flex;
     flex-direction: column;
     padding-top: 50px;
+    
 }
 .articulos__seccion1,
 .articulos__seccion2,
@@ -137,6 +138,11 @@ background-image: linear-gradient(
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+}
+.articulos__gral :hover{
+    transform: scale(1.10);
+    transition: all 0.7s;
+    box-shadow: 2px 2px 6px white;
 }
 .articulos__seccion2{
 background-image: linear-gradient(
@@ -187,6 +193,12 @@ background-size: cover;
     border-radius: 5px;
     justify-content: center;
     margin-top: 20px;
+}
+.ubicacion-mapa :hover{
+    transform: scale(1.10);
+    transition: all 0.7s;
+    box-shadow: 2px 2px 6px white;
+
 }
 .mapa{
     max-width: 1400px;

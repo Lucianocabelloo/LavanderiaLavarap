@@ -11,9 +11,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 <link rel="shortcut icon" href="../img/logo.ico" type="image/x-icon">
+
+<link rel="stylesheet" href="css/animate.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 <header class="header">
+    
     <div class="conteiner-lista">
         <div class="lista-fix">
 <ul class="lista">
@@ -42,7 +46,9 @@
 </header>
 
 <main>
+
     <section class="comentarios">
+        <div data-aos="fade-up">
 <div class="comentarios-gral">
     <img src="img/wave.svg" alt="" class="wave-sup">
         <div class="comentarios-clientes">
@@ -54,8 +60,9 @@
         </div>
         <img src="img/wave.svg" alt="wave" class="wave-inf">
     </div>
+</div>
     </section>
-
+    <div data-aos="fade-up">
     <section class="articulos">
         <div class="conteiner">
 
@@ -80,9 +87,11 @@
     </div>
 </div>
     </div>
+</div>
     </section>
 
     <section class="ubicacion">
+        <div data-aos="fade-up">
         <div class="conteiner-ubicacion">
         <h2>Sucursales disponibles</h2>
         <p><i class="fa-solid fa-map-location"></i>San Miguel de Tucuman</p>
@@ -96,8 +105,10 @@
         </div>
         </div>
     </div>
+</div>
+</div>>
     </section>
-
+</div>
 </main>
 
 <footer>
@@ -105,5 +116,14 @@
 <p>©Todos los Derechos Reservados</p>
     </div>
 </footer>
+
+<script src="js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
