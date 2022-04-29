@@ -34,6 +34,15 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 .navbar{
     font-size: 1.3rem;
 }
+.nav-item :hover{
+    background-color: #7e0b97;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 15px;
+    margin-top: 10px;
+    text-shadow: black 2px 1px 3px;
+    font-weight: bold;
+}
 .conteiner-header{
     display: flex;
     flex-direction: column;
