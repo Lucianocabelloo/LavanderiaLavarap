@@ -31,16 +31,8 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 1400px;
     margin: auto;
 }
-.lista{
-    display: flex;
-    list-style: none;
-    padding-top: 20px;
-    justify-content: center;
-}
-.lista li a{
-    padding: 10px;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+.navbar{
+    font-size: 1.3rem;
 }
 .conteiner-header{
     display: flex;
