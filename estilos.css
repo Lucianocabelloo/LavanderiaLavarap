@@ -43,6 +43,21 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: black 2px 1px 3px;
     font-weight: bold;
 }
+
+.sps--abv{
+    background-color: transparent;
+    color: #dbdbdb;
+}
+.sps--blw{
+    background-color: #2b2b2b;
+    color: black;
+    height: 100px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .conteiner-header{
     display: flex;
     flex-direction: column;
@@ -404,6 +419,11 @@ background-color: rgb(240, 239, 239);
         display: flex;
         flex-direction: column;
     }
+    @media (min-width:1200px){
+        .main__contact{
+            padding: 200px 50px;
+        }
+    }
 }
 
 /*--------------Catalogo------------*/
@@ -518,6 +538,10 @@ background-color: rgb(240, 239, 239);
 /*----Planchado----*/
 .planchado__container{
     background-image: url(./img/planchado.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
 }
 .planchado__contenedor1{  
 border: 2px solid black;
@@ -569,6 +593,9 @@ background-color: rgba(0, 0, 0, 0.829);
     background-color: rgba(0, 0, 0, 0.822);
     } 
     @media (min-width:720px){
+    .planchado__container{
+            padding-bottom: 300px;
+        }
         .planchado__contenedor1{
         flex-direction: row;
         justify-content: space-between;
@@ -592,6 +619,9 @@ background-color: rgba(0, 0, 0, 0.829);
             flex-direction: row;
             flex-wrap: wrap;
     }
+    .planchado__container{
+        padding-bottom: 460px;
+    }
     }
 
     
@@ -603,6 +633,9 @@ background-color: rgba(0, 0, 0, 0.829);
     )
         ,url(./img/colchas2.png);
         height: 90vh;
+    }
+    .main__qs{
+        margin-top: 90px;
     }
     .main__qs--sec{
         display: grid;
@@ -644,6 +677,11 @@ background-color: rgba(0, 0, 0, 0.829);
     .qs_video{
         display: none;
     }
+    @media (min-width:320px){
+        .main__qs{
+            margin-top: 60px;
+        }
+    }
     @media (min-width:720px){
         .main__qs--sec{
         grid-template-columns: repeat(2,1fr);
@@ -676,5 +714,8 @@ background-color: rgba(0, 0, 0, 0.829);
     }
     .qs-grid2{
         font-size: 1.2rem;
+    }
+    .main__qs{
+        padding: 100px 50px;
     }
 }
