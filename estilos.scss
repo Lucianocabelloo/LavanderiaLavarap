@@ -1,8 +1,18 @@
+/* Variables */
+    $color1:#B709DE;
+    $color2:#0efff9;
+    $fuente-chica: 0.6rem;
+    $fuente-grande: 1.5rem;
+    $fuente-media: 1rem;
+
+
+
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
 :root {
     --first-color: #222222;
     --second-color: #ffff;
@@ -97,7 +107,7 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: #b709dee3;
+    background-color: $color1;
     height: 500px;
     padding-top: 100px;
 }
@@ -113,7 +123,7 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 .comentarios-clientes h2{
     text-align: center;
     padding: 50px;
-    background-color: #b709dee3;
+    background-color: $color1;
 }
 .comentarios1{
     padding-bottom: 20px;
@@ -193,16 +203,15 @@ background-size: cover;
     font-family: "Font Awesome 6 Free";
     font-weight: 700;
     letter-spacing: 5px;
-}
-.conteiner-ubicacion h2{
-    font-size: 2rem;
-    padding: 20px 0px;
-    color: #b709dee3;
-    text-shadow: 1px 1px 1px var(--first-color);
-
-}
-.conteiner-ubicacion p{
-    padding: 10px 0px;
+    h2{
+        font-size: 2rem;
+        padding: 20px 0px;
+        color: $color1;
+        text-shadow: 1px 1px 1px var(--first-color);
+    }
+    p{
+        padding: 10px 0px;
+    }
 }
 .ubicacion-mapa{
     display: flex;
@@ -214,7 +223,6 @@ background-size: cover;
     transform: scale(1.10);
     transition: all 0.7s;
     box-shadow: 2px 2px 6px white;
-
 }
 .mapa{
     max-width: 1400px;
@@ -290,11 +298,11 @@ align-items: center;
 
 /*-------Contacto-------*/
 .header-pages{
-display: flex;
-justify-content: flex-start;
-align-items: center;
-background-color: deepskyblue;
-}
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: deepskyblue;
+    }
 .header-letras h2{
     margin: 20px 0px;
     font-size: 2em;
@@ -317,7 +325,7 @@ background-color: rgb(240, 239, 239);
 .header_nav li{
     border: 1px solid rgb(255, 255, 255);
     border-radius: 10px;
-    background-color: #B709DE;
+    background-color: $color1;
     padding: 10px;
     margin: 10px;
 }
@@ -361,13 +369,14 @@ background-color: rgb(240, 239, 239);
 }
 .contact__form{
     text-align: center;
-    padding: 20px;
+    padding: 80px;
     background-color: deepskyblue;
 }
 
 .contact__form-campos{
     padding: 10px;
     font-weight: bold;
+    font-size: $fuente-grande;
 }
 .contact__info{
     color: whitesmoke;
@@ -543,20 +552,20 @@ background-color: rgb(240, 239, 239);
     background-repeat: no-repeat;
     padding-bottom: 200px;
 }
-.planchado__contenedor1{  
-border: 2px solid black;
-border-radius: 40px;
-padding: 30px;
-margin: 30px;
-display: flex;
-flex-direction: column;
-align-items: center;
-height: 600px;
-font-weight: bold;
-color: white;
-text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.89);
-background-color: rgba(0, 0, 0, 0.829);
-} 
+    .planchado__contenedor1{  
+    border: 2px solid black;
+    border-radius: 40px;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.89);
+    background-color: rgba(0, 0, 0, 0.829);
+    } 
 .planchado__container h2{
     text-align: center;
     font-size: 3em;
