@@ -18,7 +18,7 @@ body {
 
 /*----Header----*/
 .header {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/hero.png);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hero.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -81,7 +81,7 @@ body {
   text-shadow: 2px 1px 1px black;
   font-weight: bold;
   text-decoration: none;
-  background-color: var(--hover-color);
+  background-color: #B709DE;
   padding: 15px;
   margin-top: 10px;
 }
@@ -160,7 +160,7 @@ body {
 }
 
 .articulos__seccion1 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(img/2.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -173,14 +173,14 @@ body {
 }
 
 .articulos__seccion2 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(img/5.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/5.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .articulos__seccion3 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(img/4.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/4.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -447,7 +447,7 @@ body {
 }
 /*--------------Catalogo------------*/
 .main__catalogo {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(./img/6.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/6.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -499,28 +499,28 @@ body {
 }
 
 .Catalogo.catalogo1 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(./img/colchas2.png);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/colchas2.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .Catalogo.catalogo2 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(./img/2.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .Catalogo.catalogo3 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(./img/toallas.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/toallas.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .Catalogo.catalogo4 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(./img/4.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/4.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -539,7 +539,7 @@ body {
 }
 /*----Planchado----*/
 .planchado__container {
-  background-image: url(./img/planchado.jpg);
+  background-image: url(../img/planchado.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -639,7 +639,7 @@ body {
 }
 /*------Quienes Somos------*/
 .body--qs {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.226)), url(./img/colchas2.png);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.226)), url(../img/colchas2.png);
   height: 90vh;
 }
 
@@ -669,7 +669,7 @@ body {
 }
 
 .qs-grid2 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(./img/2.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/2.jpg);
   border-radius: 20px;
   color: white;
   text-shadow: 2px 1px 1px black;
