@@ -4,6 +4,7 @@
     $fuente-chica: 0.6rem;
     $fuente-grande: 1.5rem;
     $fuente-media: 1rem;
+
 @mixin background {
     background-position: center;
     background-size: cover;
@@ -21,8 +22,11 @@
 }
 
 
+
+
+
 body{
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /*----Header----*/
 .header{
