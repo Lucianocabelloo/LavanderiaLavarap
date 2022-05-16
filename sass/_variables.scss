@@ -1,0 +1,23 @@
+/* Variables */
+$colorUno:#B709DE;
+$color2:#0efff9;
+$fuente-chica: 0.6rem;
+$fuente-grande: 1.5rem;
+$fuente-media: 1rem;
+
+/* paleta de colores*/
+$paletadecolores:(
+Blanco: #fff,
+Negro: #2222,
+Gris: rgb(255, 239, 239),
+);
+
+@mixin background {
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+@mixin shadow{
+text-shadow: black 2px 1px 3px;
+font-weight: bold;  
+}
