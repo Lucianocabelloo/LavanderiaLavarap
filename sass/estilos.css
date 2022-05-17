@@ -607,7 +607,7 @@ body {
   height: 250px;
   border-radius: 20px;
 }
-.main__qs--sec .qs-grid2 {
+.main__qs--sec .qs-grid2, .main__qs--sec .qs-grid1 {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/2.jpg);
   border-radius: 20px;
   color: white;
@@ -616,7 +616,7 @@ body {
   padding: 20px;
   border-radius: 20px;
 }
-.main__qs--sec .qs-grid2 h2 {
+.main__qs--sec .qs-grid2 h2, .main__qs--sec .qs-grid1 h2 {
   text-align: center;
   padding-bottom: 20px;
   font-size: 1.5rem;
@@ -637,7 +637,7 @@ body {
     grid-template-rows: 700px;
   }
 
-  .qs-grid2 {
+  .qs-grid2, .qs-grid1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -645,12 +645,6 @@ body {
     padding: 30px;
   }
 }
-.qs-grid1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .qs_video {
   display: none;
 }
@@ -664,7 +658,7 @@ body {
     height: 300px;
   }
 
-  .qs-grid2 {
+  .qs-grid2, .qs-grid1 {
     font-size: 1.2rem;
   }
 

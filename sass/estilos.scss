@@ -664,9 +664,7 @@ font-size: $fuente-grande;
 
 }
 .qs-grid1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@extend .qs-grid2;
 }
 .qs_video{
     display: none;
