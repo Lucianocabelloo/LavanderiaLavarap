@@ -37,18 +37,10 @@ body {
   text-shadow: black 2px 1px 3px;
   font-weight: bold;
 }
-
-.sps--abv {
-  background-color: transparent;
-  color: #dbdbdb;
+.navbar-nav {
+  font-weight: bold;
+  text-align: justify;
 }
-
-.sps--blw {
-  background-color: #2b2b2b;
-  color: black;
-  height: 100px;
-}
-
 .header {
   display: flex;
   justify-content: center;
@@ -81,23 +73,23 @@ body {
 /* Comentarios */
 .wave-sup {
   width: 100%;
-  position: relative;
   bottom: -5px;
+  margin-top: 50vh;
 }
 
 .wave-inf {
   width: 100%;
   transform: scaleY(-1);
-  position: relative;
-  top: -1px;
+  margin-bottom: 50vh;
 }
+
 
 .comentarios-g {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-color: #B709DE;
+  background-color: #b709dee3;
   height: 500px;
   padding-top: 100px;
 }
@@ -109,20 +101,19 @@ body {
 }
 
 .comentarios-clientes {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-shadow: black 2px 1px 3px;
   font-weight: bold;
   color: #dbdbdb;
   font-size: 2em;
-  letter-spacing: 10px;
   font-style: italic;
-  border-bottom: 5px dashed #000000;
-  border-top: 5px dashed #000000;
+  letter-spacing: 5px;
+  font-family: "Font Awesome 6 Free";
 }
 .comentarios-clientes h2 {
   text-align: center;
   padding: 50px;
-  background-color: #B709DE;
+  background-color: #b709dee3;
+  box-shadow: 5px 5px 5px black;
 }
 
 /*-------------- Articulos -------------*/
