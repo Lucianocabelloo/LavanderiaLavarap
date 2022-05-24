@@ -97,7 +97,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-color: #B709DE;
+  background-color: rgba(183, 9, 222, 0.9019607843);
   height: 500px;
   padding-top: 100px;
 }
@@ -109,15 +109,14 @@ body {
 }
 
 .comentarios-clientes {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Font Awesome 6 Free";
+  box-shadow: 1px 5px 5px black;
   text-shadow: black 2px 1px 3px;
   font-weight: bold;
   color: #dbdbdb;
   font-size: 2em;
   letter-spacing: 10px;
   font-style: italic;
-  border-bottom: 5px dashed #000000;
-  border-top: 5px dashed #000000;
 }
 .comentarios-clientes h2 {
   text-align: center;
